@@ -1,2 +1,2 @@
 # server-tcp-node
-Basic HTTP server built with Node.js over TCP, featuring endpoint routing, static HTML pages, and 404 response handling, without using any frameworks.
+Servidor HTTP básico desenvolvido em Node.js sobre TCP, com roteamento de endpoints, páginas HTML estáticas e tratamento de respostas 404, sem utilização de frameworks.
