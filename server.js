@@ -23,9 +23,7 @@ function tratarRequisicao(requisicaoBruta, socket)
     const linhas = requisicaoBruta.split('\r\n');
     const [metodo, caminhoCompleto] = linhas[0].split(' ');
     const endpoint = (caminhoCompleto || '/').split('?')[0];
-    
-    console.log(`Método: ${metodo} | Endpoint: ${endpoint}`);
-    
+        
     const metodoHttp = Object.values(Method).includes(metodo) ? metodo : null;
     
     let resposta;

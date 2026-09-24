@@ -4,7 +4,6 @@ const path = require('path');
 // Encontra a rota
 function encontrarRota(rotas, endpoint, metodoHttp)
 {
-    console.log(rotas, endpoint, metodoHttp);
     return rotas.find(
         (rota) => rota.endpoint === endpoint && rota.metodoHttp === metodoHttp
     );
